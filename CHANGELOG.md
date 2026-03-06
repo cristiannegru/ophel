@@ -18,6 +18,7 @@
 
 - **触发提示改为动态配置**：全局搜索页面顶部触发说明由固定文案改为动态拼装，实时反映当前用户配置（双击 Shift / 自定义键位）。
 - **删除快捷键场景兼容**：当用户移除全局搜索快捷键后，触发说明会自动降级展示可用触发方式；若全部关闭，显示“未设置”。
+- **会话同步结果诊断增强**：会话手动同步后新增“扫描/新增/更新”结果提示；当侧边栏未检测到会话时提供明确引导；并修正更新统计口径与元数据回填写入逻辑。by @joevalleyfield
 
 ### 🌍 国际化
 
@@ -464,6 +465,8 @@
 
 ---
 
+[1.0.15]: https://github.com/urzeye/ophel/releases/tag/v1.0.15
+[1.0.14]: https://github.com/urzeye/ophel/releases/tag/v1.0.14
 [1.0.13]: https://github.com/urzeye/ophel/releases/tag/v1.0.13
 [1.0.12]: https://github.com/urzeye/ophel/releases/tag/v1.0.12
 [1.0.11]: https://github.com/urzeye/ophel/releases/tag/v1.0.11
